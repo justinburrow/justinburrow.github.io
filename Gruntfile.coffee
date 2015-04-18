@@ -46,6 +46,7 @@ module.exports = (grunt) ->
           "_includes/**/*"
           "_layouts/**/*"
           "_posts/**/*"
+          "_sass/**/*"
           "css/**/*"
           "js/**/*"
           "_config.yml"

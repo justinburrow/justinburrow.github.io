@@ -1,0 +1,41 @@
+.blog-sidebar {
+	background: white;
+	border-left: 8px solid $sidebar-accent;
+	.photo {
+		background: url(../img/computer_head.jpg) no-repeat;
+		background-size: cover;
+		border: 3px solid white;
+		box-shadow: 0 0 5px #ccc;
+		border-radius: 50%;
+		width: 90%;
+		height: auto;
+		padding-top: 90%;
+		margin: 15px auto 0 auto;
+		position: relative;
+	}
+	.description {
+		margin: 15px 0;
+		text-align: center;
+
+	}
+	.social {
+		padding: 0;
+		list-style-type: none;
+		li a {
+			display: block;
+			margin-bottom: 5px;
+			padding: 0 10px;
+			color: white;
+			background: $sidebar-accent;
+			&:hover {
+				background: darken($sidebar-accent, 10%);
+				text-decoration: none;
+			}
+			i {
+				width: 20px;
+				text-align: center;
+				margin-right: 10px;
+			}
+		}
+	}
+}
