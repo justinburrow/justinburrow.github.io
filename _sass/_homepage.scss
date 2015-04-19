@@ -53,6 +53,10 @@ p.title {
 				background: darken($sidebar-accent, 10%);
 				text-decoration: none
 			}
+			i {
+				margin-right: 3px;
+				vertical-align: middle;
+			}
 		}
 	}
 }
