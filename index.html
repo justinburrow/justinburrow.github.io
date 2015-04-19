@@ -39,7 +39,7 @@ layout: default
           <span class="date">posted {{ post.date | date_to_string }}</span>
           {{ post.content | split:'<!--break-->' | first }}
           {% if post.content contains '<!--break-->' %}
-          <span class="read-more"><a href="{{ post.url }}">read more</a></span>
+          <span class="read-more"><a href="{{ post.url }}"><i class="fa fa-plus-square-o"></i> read more</a></span>
           {% endif %}
           {% endfor %}
         </div>
