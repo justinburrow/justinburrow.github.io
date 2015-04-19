@@ -1,10 +1,15 @@
+html {
+  font-size: 16px; }
+
 body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
   color: #111;
   background: url(../img/concrete_seamless.png); }
+
+img {
+  max-width: 100%; }
 
 header, .navbar-header, .navbar {
   background: black;
@@ -13,9 +18,20 @@ header, .navbar-header, .navbar {
   header .navbar-nav > li > a, header .navbar-brand, .navbar-header .navbar-nav > li > a, .navbar-header .navbar-brand, .navbar .navbar-nav > li > a, .navbar .navbar-brand {
     color: white; }
 
+header h1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 300; }
+
+.bold {
+  font-weight: 400; }
+
+.content.container-fluid {
+  padding-left: 30px;
+  padding-right: 0; }
+
 .blog-sidebar {
-  background: white;
-  border-left: 8px solid #2ab0dc; }
+  background: white; }
   .blog-sidebar .photo {
     background: url(../img/computer_head.jpg) no-repeat;
     background-size: cover;
@@ -27,16 +43,20 @@ header, .navbar-header, .navbar {
     padding-top: 90%;
     margin: 15px auto 0 auto;
     position: relative; }
-  .blog-sidebar .description {
+  .blog-sidebar h3.description {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
     margin: 15px 0;
     text-align: center; }
   .blog-sidebar .social {
     padding: 0;
-    list-style-type: none; }
+    list-style-type: none;
+    font-size: 1rem; }
     .blog-sidebar .social li a {
       display: block;
       margin-bottom: 5px;
-      padding: 0 10px;
+      padding: 5px	 10px;
       color: white;
       background: #2ab0dc; }
       .blog-sidebar .social li a:hover {
@@ -46,3 +66,117 @@ header, .navbar-header, .navbar {
         width: 20px;
         text-align: center;
         margin-right: 10px; }
+
+p.title {
+  font-size: 1.6rem;
+  border-bottom: 3px solid #2ab0dc;
+  margin-bottom: 30px; }
+
+.portfolio {
+  margin-bottom: 60px; }
+  .portfolio .port-piece img {
+    border: 1px solid #999; }
+  .portfolio .port-piece h2 {
+    font-size: 1.4rem; }
+  .portfolio .port-piece a {
+    color: #111; }
+
+.blog-preview p {
+  font-size: 1rem; }
+.blog-preview h3 {
+  font-size: 1.4rem;
+  margin: 0 0 5px 0; }
+  .blog-preview h3 a {
+    color: #111; }
+.blog-preview .date {
+  margin-bottom: 10px;
+  display: block; }
+.blog-preview .read-more {
+  display: block;
+  text-align: right;
+  border-bottom: 1px solid #2ab0dc;
+  font-weight: 400;
+  margin-bottom: 60px; }
+  .blog-preview .read-more a {
+    padding: 2px 5px;
+    background: #2ab0dc;
+    color: white; }
+    .blog-preview .read-more a:hover {
+      background: #1e90b5;
+      text-decoration: none; }
+    .blog-preview .read-more a i {
+      margin-right: 3px;
+      vertical-align: middle; }
+
+.post {
+  font-size: 1rem; }
+  .post h2 {
+    margin-top: 0; }
+  .post article {
+    clear: both; }
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid #2ab0dc;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+
+.post-meta {
+  margin-bottom: 30px;
+  padding: 5px;
+  font-size: .8rem;
+  font-weight: 400;
+  background: #ddd;
+  display: inline-block; }
+
+.post-pagination {
+  margin-top: 60px;
+  font-size: 1.2rem; }
+  .post-pagination a {
+    display: inline-block;
+    background: #2ab0dc;
+    padding: 5px 10px;
+    color: white; }
+    .post-pagination a:hover {
+      background: #1e90b5;
+      text-decoration: none; }
+  .post-pagination i {
+    vertical-align: middle;
+    margin-top: -3px; }
+  .post-pagination .previous-link {
+    float: left; }
+    .post-pagination .previous-link a i {
+      margin-right: 8px; }
+  .post-pagination .next-link {
+    float: right; }
+    .post-pagination .next-link a i {
+      margin-left: 8px; }
+
+.footer.container-fluid {
+  margin-top: 100px;
+  background: black; }
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: white; }
+  footer h5 {
+    display: inline;
+    font-weight: 300; }
+  footer ul {
+    list-style-type: none;
+    display: inline; }
+    footer ul li {
+      display: inline;
+      margin-right: 10px;
+      border-right: 1px solid #777;
+      padding-right: 10px; }
+      footer ul li:last-child {
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0; }

@@ -6,35 +6,243 @@
 </description>
     <link>http://justinburrow.github.io/</link>
     <atom:link href="http://justinburrow.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Apr 2015 16:56:44 -0700</pubDate>
-    <lastBuildDate>Sat, 18 Apr 2015 16:56:44 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2015 10:24:24 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2015 10:24:24 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Obsoletion</title>
+        <description>&lt;p&gt;Four years ago, when I started in my current position, I had the typical &lt;strong&gt;Web Designer&lt;/strong&gt; skillset. Hand-coded XHTML, CSS, and a little experience with jQuery and PHP-via-Wordpress. That was well suited for a web design job in the eCommerce space. Coding up emails with tables, making basic static sites and landing pages, and generating front-end markup and CSS to deliver to the dev team to get implemented into the platform we were running at the time.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;!--break--&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Meanwhile…&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The industry moved on.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;jQuery got really prevalent.&lt;/p&gt;
 
+&lt;p&gt;People really got into optimizing the mobile experience.&lt;/p&gt;
+
+&lt;p&gt;Responsive design hit the scene.&lt;/p&gt;
+
+&lt;p&gt;These really smart guys came out with Node.js, and a slew of other Javascript frameworks started peppering the text of the web design related blogs I followed.&lt;/p&gt;
+
+&lt;p&gt;Grunt. SASS/Less. Yeoman. Angular.js. Modernizr. Selectivizr. Backbone. Ditching Photoshop. Designing-in-Browser. Static site generators.&lt;/p&gt;
+
+&lt;p&gt;All of these things were useful, new technologies that front end guys were starting to utilize, become comfortable with, and put to work to make really great products.&lt;/p&gt;
+
+&lt;p&gt;Back at work, I was still trying to force Wordpress to act like a good CMS for a company intranet, and recreating a Facebook-like function with SQL table writes.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, every few months or so, I’d take a night fueled by copious amounts of caffeine, and really try to wrap my head around just one of these new technologies.&lt;/p&gt;
+
+&lt;p&gt;I’d get a little way into it, excitement would ensue, and then the day-to-day grind of simple HTML work would start to edge out the memory of how any of that stuff worked.&lt;/p&gt;
+
+&lt;p&gt;And that’s what often happens in the corporate space. Every job I’ve held in-house has been problematic in this way.&lt;/p&gt;
+
+&lt;p&gt;These days, I think it would be very difficult for anyone with the skillset I had four years ago to get anything other than a really junior-level position. While many companies still operate under this schema, I don’t think it’s true that there are many of them that are hiring to perpetuate that model.&lt;/p&gt;
+
+&lt;p&gt;Technology, in general, has proven to evolve on a bell curve. It doesn’t progress in a linear fashion. Web-related technologies are no different. Things are moving &lt;strong&gt;FAST&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m of the persuasion that to be really good and capable in this field, it’s more than a full-time job. It requires going home and building things. Being in community with people who are also involved in similar work. Making stuff just to make it. Breaking things and putting them back together. I don’t believe you can really do enough of this, especially if you work in an environment that’s a little stagnated.&lt;/p&gt;
+
+&lt;p&gt;One of the initiatives I’m attempting to pioneer is an extracurricular build-sesh, involving anyone from our Design and Dev teams that want to pod-up together and build something just to build it - on the weekends, after hours, on lunch… whatever. The benefits here seem obvious - skills remain sharp, teamwork is encouraged, the company at large gets visibility into how capable and talented its employees are outside of the general grind, and perhaps upper management starts to become motivated to evolve, iterate, and erase any complacency towards stagnation.&lt;/p&gt;
+
+&lt;p&gt;In a perfect world, anyway.&lt;/p&gt;
+
+&lt;p&gt;If you find yourself in a position like I’ve described, realize that things are evolving around you and past you. Get current and passionate in one small facet, and let that drive you to embrace the newer utilties available to help you, in the end, create a better product.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 03:26:26 -0700</pubDate>
-        <link>http://justinburrow.github.io/jekyll/update/2015/04/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://justinburrow.github.io/jekyll/update/2015/04/18/welcome-to-jekyll.html</guid>
+        <pubDate>Fri, 19 Sep 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/writing/obsoletion/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/writing/obsoletion/</guid>
+        
+        <category>Development</category>
         
         
-        <category>jekyll</category>
+        <category>writing</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>The Copycat Fallacy</title>
+        <description>&lt;p&gt;It makes sense - if it worked before, why reinvent the wheel? In a lot of ways, this is true, and works well. The eCommerce space is a great arena to put this idea into practice. I frequently begin wireframing site functionality by examining what Amazon, Target, or Walmart does, and then contrast that against more modern online retailers like Shoplet or Poppin. These behemoth companies have teams of people that I naturally assume have vetted out these concepts to a degree that’s just not available to me at a smaller organization.&lt;/p&gt;
+
+&lt;p&gt;The downfall here is in getting into a habit of not thinking.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Sometimes, what worked for the obvious role models doesn’t work well for your product, your customer base, or your site platform.&lt;/p&gt;
+
+&lt;p&gt;It can become an insidious company culture cancer that encourages unoriginality without employing consideration and common sense. “It’s this way because that’s how Company X does it” becomes a silver bullet argument hardly anyone will be willing to stand up against.&lt;/p&gt;
+
+&lt;p&gt;From a high level perspective, borrowing ideas from companies larger than yours can be a great source of inspiration and direction, but should always be carefully weighed out against business needs, objectives and the target audience.&lt;/p&gt;
+
+&lt;p&gt;On a low level, internal copycat-ism can be even more problematic.&lt;/p&gt;
+
+&lt;p&gt;Today, I saw a comp for a site feature that had some pretty strange verbiage, and had copy giving helpful tips for one function sitting next to a completely unrelated function.&lt;/p&gt;
+
+&lt;p&gt;When I asked the designer if this copy was provided by somebody or if we had just rolled with it as placeholder, the answer I got back was: “That’s how it was on the comp for one of our other sites.”&lt;/p&gt;
+
+&lt;p&gt;For whatever merit lies in referencing the strategy and brainstorming of a company with bigger resources, ripping your own ideas off has considerably less than that.&lt;/p&gt;
+
+&lt;p&gt;The bottom line is that no matter what was done before internally, or what someone else has done elsewhere that is similar to the project being worked on, conscious thought must come into play in every step of the process. Asking, “Does this make sense?” needs to be an intuitive response as each piece of the puzzle settles into place, and before the deliverables are shipped, a final once-over from a customer’s perspective has to happen in order to ensure that nothing was designed in a vacuum, by designers, for designers.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Sep 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/writing/whats-this-for-again/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/writing/whats-this-for-again/</guid>
+        
+        <category>Design</category>
+        
+        
+        <category>writing</category>
+        
+      </item>
+    
+      <item>
+        <title>Stylesheet Diets</title>
+        <description>&lt;p&gt;We’ve been on a performance enhancement kick lately, really trying to reclaim some of the page speed performance loss due to the inherent Magento bloat. A lot of this is happening server-side, by incorporating Akamai caching and Varnish to make sure that pages are immediately available to users in a broad geographic region.&lt;/p&gt;
+
+&lt;p&gt;On the front end side of things, I’ve been pushing forward initiatives based around a talk that Paul Irish gave at An Event Apart Boston 2014. It was generally geared towards improving performance for mobile devices by decreasing round trip responses and factoring in 3/4G latency, but many of his points were applicable to the desktop experience as well. Concatenating JS and moving it to be non-blocking, working in critical CSS into the first 14kb packet, optimizing images, looking at the holdup for first paint in webpagetest.org, etc.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;After working through a lot of these big wins, one looming area of improvement was purging out unused CSS from one of our site’s stylesheets that had a redesign which resulted in the new styles simply being appended below the old ones. It was hard to discern what was still being inherited and what wasn’t being referenced anymore.&lt;/p&gt;
+
+&lt;p&gt;Addy Osmani wrote a great Grunt tool called “UnCSS”, but you can’t really run this in a Magento repo.&lt;/p&gt;
+
+&lt;p&gt;After racking my brain for a few days over how we could utilize something like this for the immediate need as well as moving forward, here’s what I came up with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List out each “page type” for your site - Home Page, Category Page, Product Page, Search Results, Account Pages, CMS Page, Landing Page, Cart, Checkout…&lt;/li&gt;
+  &lt;li&gt;Visit one example of each of these types and save the HTML into a directory&lt;/li&gt;
+  &lt;li&gt;Copy over the main stylesheet for the site into this directory as well&lt;/li&gt;
+  &lt;li&gt;Initialize Grunt, create the Gruntfile.js and register UnCSS per the documentation with the filenames for the saved pages&lt;/li&gt;
+  &lt;li&gt;Run UnCSS, add the new stylesheet with a unique name into the repo, and update page.xml to reflect this new stylesheet&lt;/li&gt;
+  &lt;li&gt;Manually hand-crawl your site looking for any pages with broken styles and add these into your UnCSS directory/Gruntfile.js, re-run as needed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s not the prettiest, but it worked. I managed to trim nearly 100kb out of the stylesheet for the offending site. Not a huge performance gain when it’s being cached so heavily, but definitely impacts browser rendering speed.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Aug 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/writing/stylesheet-diets/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/writing/stylesheet-diets/</guid>
+        
+        <category>Development</category>
+        
+        
+        <category>writing</category>
+        
+      </item>
+    
+      <item>
+        <title>What&#39;s This For Again?</title>
+        <description>&lt;p&gt;Soapbox alert.&lt;/p&gt;
+
+&lt;p&gt;You’re sitting in a scrum. You talk about a one-off project that references things outside the normal scope of day-to-day operations. Someone asks you, “What’s that?”&lt;/p&gt;
+
+&lt;p&gt;There’s only one wrong answer to that question.&lt;/p&gt;
+
+&lt;p&gt;“I don’t know.”&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Granted, when we’re executing, the ticket is the brief and sometimes that’s all we have to go off of. We can do our best to make assumptions about what’s needed based on historical evidence from other similar projects, but this is just educated guessing, and that’s hardly a strategy for efficiency.&lt;/p&gt;
+
+&lt;p&gt;Picking up a tool to start working without the who, what, when, where and why sorted out is a really quick way to deliver mediocre work at best, or at worst, completely miss the mark.&lt;/p&gt;
+
+&lt;p&gt;From my experience, it’s easy to fall into a mistaken belief that asking questions to gain context is a nuisance or wasting other people’s time, but I can’t logically think of a scenario where the business wouldn’t want you to have any and all details pertinent to a project so the end result can be the best possible deliverable.&lt;/p&gt;
+
+&lt;p&gt;Ask questions. Make sure you’ve got the context, understand the audience, and grasp the intended outcome, and &lt;em&gt;then&lt;/em&gt; start working. You’ll have an answer at the ready for any discussion about your approach and the logic behind it.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Aug 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/writing/the-copycat-fallacy/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/writing/the-copycat-fallacy/</guid>
+        
+        <category>Design</category>
+        
+        
+        <category>writing</category>
+        
+      </item>
+    
+      <item>
+        <title>Progressive Enhancement</title>
+        <description>&lt;p&gt;Working on corporate sites means supporting a lot of antiquated browsers. In an ideal world, it’d be great to put up a &lt;strong&gt;“Stop using this crap browser!”&lt;/strong&gt; modal dialog with a link to Chrome for any IE version less than 11, but when you’re dealing with potential business users sitting behind a network administered by IT guys who don’t want to deal with having to figure out how their Java based CRMs are going to play nice with browsers that have evolved since that software was developed, you just can’t develop in a way that doesn’t involve a decent user experience for these archaic environments.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;To this end, it’s easy to read all the hip design blogs that spotlight great new HTML features (like the new &lt;a href=&quot;http://www.w3schools.com/tags/tag_dialog.asp&quot;&gt;‘dialog’&lt;/a&gt; element I was just reading about that is only supported by WebKit browsers) and breathe your exasperated sigh, knowing that you’ll just have to settle for some baked-in jQuery solution (like the &lt;a href=&quot;https://github.com/HubSpot/vex&quot;&gt;Vex&lt;/a&gt; library, which we’ve been using for about a year).&lt;/p&gt;
+
+&lt;p&gt;I can’t begin to describe how many times I’ve written inline Javascript on an input field for placeholder text, even though the HTML5 spec includes a ‘placeholder’ attribute. Lower than IE10, and the user just doesn’t see anything. We &lt;strong&gt;just&lt;/strong&gt; stopped supporting IE7, so we’re still quite a bit away from ignoring those users on 8 and 9.&lt;/p&gt;
+
+&lt;p&gt;At An Event Apart Boston this year, &lt;a href=&quot;http://adactio.com/&quot;&gt;Jeremy Keith&lt;/a&gt; discussed progressive enhancement in great detail. It’s a concept I’ve been familiar with - making sure that any new tech utilized includes graceful degradation for older browsers - but his ethos was that progressive enhancement should be the strategy, not a stop-gap when you really, &lt;em&gt;really&lt;/em&gt; want to utilize a new feature.&lt;/p&gt;
+
+&lt;p&gt;There are a few great features that gracefully degrade to a usable extent, that can be implemented right now.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Input types&lt;/strong&gt; - HTML5 introduces new input type attributes, like number, date, and tel, which have great UX benefits on mobile devices. Desktop browsers simply behave the same, which means UX improvement for some users, with no net loss for others.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://modernizr.com/&quot;&gt;Modernizr&lt;/a&gt;&lt;/strong&gt; gives you the ability to utilize a number of new HTML5/CSS3 feature sets, and also a custom build option to slim down the JS needed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m done with the days of letting old browser support dictate the feature sets implemented. Designing this way essentially ensures that the minute the product is shipped, it’s already obsolete. Moving forward, we should all hold ourselves accountable to designing for the future, while making sure that those who haven’t quite caught up yet still get a usable experience across the board.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Jul 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/writing/progressive-enhancement/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/writing/progressive-enhancement/</guid>
+        
+        <category>Development</category>
+        
+        
+        <category>writing</category>
+        
+      </item>
+    
+      <item>
+        <title>Checkout Flow Redesign</title>
+        <description>&lt;p&gt;One of the initiatives I pioneered was a complete rethinking of our checkout flow. It was something no one had really peeled back the curtain on in quite a while, and I saw some very major improvements that could be made which would greatly enhance UX in the purchase path.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Here are some of the pain points I attempted to address:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;After adding an item to cart, you were immediately whisked away to the cart page. In order to get back to the page you were on to keep shopping, you had to press the back button, and to get to checkout, you had to first start on the cart page and then proceed to there. I felt that the user should be able to remain on the page and keep adding items, or move directly to checkout without having to hit the cart first.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The login function at the top of the cart was visibly insignificant to me, even though I knew where to look. I wanted to really call out the checkout as guest or login option, and include social sign-in functionality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The long one-page checkout flow was just tedious. So many fields to stare at before completing your purchase. I felt that separating these out into a horizontal layout that slid the immediate fields into focus as you progressed, with clear indication of how much was left in the process would likely decrease bounce rate.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The function that calculated shipping options was a little wonky. It relied on AJAX to pull in the relevant shipping options based on address, but required a button press since the AJAX didn’t reliably fire all the time. Since shipping rates are calculated based on the first three digits of the zip code, we worked out a function that calculated and recalculated shipping options when either three digits were entered, or the user deleted back to two digits and added a third digit back in. No button press necessary.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finally, I wanted to hide the promotional code field, as there’s some psychology to users seeing a promotional code input field and feeling incentivized to go find a coupon code to put in there. By hiding it, the intention was to discourage people from feeling motivated to find a coupon code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is running in a dev environment which is why the page feels laggy, but I feel this is a good illustration of the improvements we made.&lt;/p&gt;
+
+&lt;p&gt;My wireframe set is available below - please open it in Acrobat and view it as a single page. It’s a linked pdf so various parts of the page will progress the flow as intended.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../content/images/2014/Aug/checkout_wireframe_still.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../content/images/2014/Aug/magento_checkout_UX.pdf&quot;&gt;Download the full wireframe .pdf here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Jul 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/portfolio/checkout-flow-redesign/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/checkout-flow-redesign/</guid>
+        
+        <category>Development</category>
+        
+        
+        <category>portfolio</category>
         
       </item>
     
