@@ -1,10 +1,17 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
     background: url(../img/concrete_seamless.png);
+}
+
+img {
+    max-width: 100%;
 }
 
 header, .navbar-header, .navbar {
@@ -14,4 +21,11 @@ header, .navbar-header, .navbar {
     .navbar-nav>li>a, .navbar-brand {
         color: white;
     }
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+
 }

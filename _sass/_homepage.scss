@@ -1,0 +1,59 @@
+p.title {
+	font-size: 1.6rem;
+	border-bottom: 3px solid $sidebar-accent;
+	margin-bottom: 30px;
+}
+
+.home.container-fluid {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.portfolio {
+	margin-bottom: 60px;
+	.port-piece {
+		img {
+			border: 1px solid #999;
+		}
+		h2 {
+			font-size: 1.4rem;
+		}
+		a {
+			color: $text-color;
+		}
+	}
+}
+
+.blog-preview {
+	p {
+		font-size: 1rem;
+	}
+	h3 {
+	font-size: 1.4rem;
+	margin: 0 0 5px 0;
+		a {
+		color: $text-color;
+		}
+	}
+	.date {
+	margin-bottom: 10px;
+	display: block;
+	}
+	.read-more {
+	display: block;
+	text-align: right;
+	border-bottom: 1px solid $sidebar-accent;
+	font-weight: 400;
+	margin-bottom: 60px;
+		a {
+			padding: 2px 5px;
+			background: $sidebar-accent;
+			color: white;
+			&:hover {
+				background: darken($sidebar-accent, 10%);
+				text-decoration: none
+			}
+		}
+	}
+}
+
