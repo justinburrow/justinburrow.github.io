@@ -16,6 +16,7 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://justinburrow.github.io/about/">
   <link rel="alternate" type="application/rss+xml" title="Justin Burrow - Front End Dev / Musician" href="http://justinburrow.github.io/feed.xml" />
+  <script src="/vendor/js/jquery.min.js"></script>
 </head>
 
 
@@ -59,9 +60,8 @@
         </div><!--/.container-fluid -->
       </nav>
     </header>
-
+    
       <div class="container">
-
 
     <div class="row">
 
@@ -80,22 +80,28 @@
 
     
         <div class="col-sm-9">
-        <div class="post">
+        <div class="content container-fluid">
+	<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+	  <h2 class="post-title">About</h2>
 
-  <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+	  <article class="post-content">
+	    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
 
 <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
 
 <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
 
-  </article>
+	  </article>
 
+	</div>
 </div>
+
+<script>
+  $(function() {
+    $('ul.nav li a:contains("About")').addClass("active");
+  });
+</script>
 
         </div>
     </div>
@@ -107,17 +113,16 @@
 	    <h5 class="footer-heading"><a href="/">Justin Burrow - Front End Dev / Musician</a></h5>
 
 	    <ul>
-	    	<li><a href="https://twitter.com/_justinburrow">Twitter</a></li>
-	    	<li><a href="https://www.linkedin.com/in/justinburrow84">LinkedIn</a></li>
-	    	<li><a href="https://soundcloud.com/justin-plays-guitar">SoundCloud</a></li>
-	    	<li><a href="mailto:justinburrow@gmail.com">Let's Chat</a></li>
+	    	<li><a href="https://twitter.com/_justinburrow"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+	    	<li><a href="https://www.linkedin.com/in/justinburrow84"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+	    	<li><a href="https://soundcloud.com/justin-plays-guitar"><i class="fa fa-soundcloud"></i>SoundCloud</a></li>
+	    	<li><a href="mailto:justinburrow@gmail.com"><i class="fa fa-envelope"></i>Let's Chat</a></li>
 	    </ul>
 	    
 	</footer>
 </div>
 
 
-  <script src="/vendor/js/jquery.min.js"></script>
   <script src="/vendor/js/bootstrap.min.js"></script>
   </body>
 

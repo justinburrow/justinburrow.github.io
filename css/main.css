@@ -17,6 +17,13 @@ header, .navbar-header, .navbar {
   border: 0; }
   header .navbar-nav > li > a, header .navbar-brand, .navbar-header .navbar-nav > li > a, .navbar-header .navbar-brand, .navbar .navbar-nav > li > a, .navbar .navbar-brand {
     color: white; }
+    header .navbar-nav > li > a:hover, header .navbar-brand:hover, .navbar-header .navbar-nav > li > a:hover, .navbar-header .navbar-brand:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-brand:hover {
+      color: #ade1f2; }
+  header .nav li a.active, .navbar-header .nav li a.active, .navbar .nav li a.active {
+    background: #2ab0dc;
+    font-weight: 400; }
+    header .nav li a.active:hover, .navbar-header .nav li a.active:hover, .navbar .nav li a.active:hover {
+      color: white; }
 
 header h1 {
   margin: 0;
@@ -29,6 +36,16 @@ header h1 {
 .content.container-fluid {
   padding-left: 30px;
   padding-right: 0; }
+
+.post-snippet {
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #ccc; }
+  .post-snippet h3 {
+    margin-bottom: 5px;
+    font-size: 1.4rem; }
+  .post-snippet .categories {
+    font-size: .8rem; }
 
 .blog-sidebar {
   background: white; }
@@ -111,7 +128,8 @@ p.title {
 .post {
   font-size: 1rem; }
   .post h2 {
-    margin-top: 0; }
+    margin-top: 0;
+    text-transform: capitalize; }
   .post article {
     clear: both; }
 
@@ -180,3 +198,5 @@ footer {
         border-right: none;
         padding-right: 0;
         margin-right: 0; }
+      footer ul li i {
+        margin-right: 8px; }

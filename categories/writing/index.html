@@ -16,6 +16,7 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://justinburrow.github.io/categories/writing/">
   <link rel="alternate" type="application/rss+xml" title="Justin Burrow - Front End Dev / Musician" href="http://justinburrow.github.io/feed.xml" />
+  <script src="/vendor/js/jquery.min.js"></script>
 </head>
 
 
@@ -59,9 +60,8 @@
         </div><!--/.container-fluid -->
       </nav>
     </header>
-
+    
       <div class="container">
-
 
     <div class="row">
 
@@ -80,25 +80,46 @@
 
     
         <div class="col-sm-9">
-        <h1 class="category">writing</h1>
-<ul class="posts">
+        <div class="content container-fluid">
+	<div class="post">
+	<h2 class="category">writing</h2>
+		<ul class="posts">
+		
+		    <div class="post-snippet">
+			    <h3><a href="/writing/obsoletion/">Obsoletion</a></h3>
+			    <div class="categories"><span class="month">SEP</span> <span class="day">19</span> <span class="year">2014</span>  | Development</div>
+		   	</div>
+		
+		    <div class="post-snippet">
+			    <h3><a href="/writing/whats-this-for-again/">The Copycat Fallacy</a></h3>
+			    <div class="categories"><span class="month">SEP</span> <span class="day">02</span> <span class="year">2014</span>  | Design</div>
+		   	</div>
+		
+		    <div class="post-snippet">
+			    <h3><a href="/writing/stylesheet-diets/">Stylesheet Diets</a></h3>
+			    <div class="categories"><span class="month">AUG</span> <span class="day">27</span> <span class="year">2014</span>  | Development</div>
+		   	</div>
+		
+		    <div class="post-snippet">
+			    <h3><a href="/writing/the-copycat-fallacy/">What's This For Again?</a></h3>
+			    <div class="categories"><span class="month">AUG</span> <span class="day">15</span> <span class="year">2014</span>  | Design</div>
+		   	</div>
+		
+		    <div class="post-snippet">
+			    <h3><a href="/writing/progressive-enhancement/">Progressive Enhancement</a></h3>
+			    <div class="categories"><span class="month">JUL</span> <span class="day">22</span> <span class="year">2014</span>  | Development</div>
+		   	</div>
+		
+		</ul>
+	</div>
+</div>
 
-    <div><span class="month">SEP</span> <span class="day">19</span> <span class="year">2014</span> </div>     <h2><a href="/writing/obsoletion/">Obsoletion</a></h2>
-    <div class="categories">Filed under <a class='category' href='/categories/writing/'>writing</a></div>
+<script>
+  $(function() {
+    $('ul.nav li a:contains("writing")').addClass("active");
+  });
+</script>
 
-    <div><span class="month">SEP</span> <span class="day">02</span> <span class="year">2014</span> </div>     <h2><a href="/writing/whats-this-for-again/">The Copycat Fallacy</a></h2>
-    <div class="categories">Filed under <a class='category' href='/categories/writing/'>writing</a></div>
-
-    <div><span class="month">AUG</span> <span class="day">27</span> <span class="year">2014</span> </div>     <h2><a href="/writing/stylesheet-diets/">Stylesheet Diets</a></h2>
-    <div class="categories">Filed under <a class='category' href='/categories/writing/'>writing</a></div>
-
-    <div><span class="month">AUG</span> <span class="day">15</span> <span class="year">2014</span> </div>     <h2><a href="/writing/the-copycat-fallacy/">What's This For Again?</a></h2>
-    <div class="categories">Filed under <a class='category' href='/categories/writing/'>writing</a></div>
-
-    <div><span class="month">JUL</span> <span class="day">22</span> <span class="year">2014</span> </div>     <h2><a href="/writing/progressive-enhancement/">Progressive Enhancement</a></h2>
-    <div class="categories">Filed under <a class='category' href='/categories/writing/'>writing</a></div>
-
-</ul>
         </div>
     </div>
   </div><!-- /.container -->
@@ -109,17 +130,16 @@
 	    <h5 class="footer-heading"><a href="/">Justin Burrow - Front End Dev / Musician</a></h5>
 
 	    <ul>
-	    	<li><a href="https://twitter.com/_justinburrow">Twitter</a></li>
-	    	<li><a href="https://www.linkedin.com/in/justinburrow84">LinkedIn</a></li>
-	    	<li><a href="https://soundcloud.com/justin-plays-guitar">SoundCloud</a></li>
-	    	<li><a href="mailto:justinburrow@gmail.com">Let's Chat</a></li>
+	    	<li><a href="https://twitter.com/_justinburrow"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+	    	<li><a href="https://www.linkedin.com/in/justinburrow84"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+	    	<li><a href="https://soundcloud.com/justin-plays-guitar"><i class="fa fa-soundcloud"></i>SoundCloud</a></li>
+	    	<li><a href="mailto:justinburrow@gmail.com"><i class="fa fa-envelope"></i>Let's Chat</a></li>
 	    </ul>
 	    
 	</footer>
 </div>
 
 
-  <script src="/vendor/js/jquery.min.js"></script>
   <script src="/vendor/js/bootstrap.min.js"></script>
   </body>
 
