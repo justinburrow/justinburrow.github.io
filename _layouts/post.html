@@ -26,3 +26,9 @@ layout: default
 
 	</div>
 </div>
+
+<script>
+  $(function() {
+    $('ul.nav li a:contains("{{ page.categories }}")').addClass("active");
+  });
+</script>

@@ -3,7 +3,7 @@ layout: post
 title:  "Checkout Flow Redesign"
 date:   2014-07-22 12:00:00
 categories: portfolio
-tags: Development
+tags: Development UX Magento
 ---
 One of the initiatives I pioneered was a complete rethinking of our checkout flow. It was something no one had really peeled back the curtain on in quite a while, and I saw some very major improvements that could be made which would greatly enhance UX in the purchase path.
 
@@ -23,8 +23,17 @@ Here are some of the pain points I attempted to address:
 
 This is running in a dev environment which is why the page feels laggy, but I feel this is a good illustration of the improvements we made.
 
+<br />
+
+<iframe width="853" height="480" src="http://www.youtube.com/embed/1Hj0cC9FaJA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<br />
+
 My wireframe set is available below - please open it in Acrobat and view it as a single page. It's a linked pdf so various parts of the page will progress the flow as intended.
 
-![](../content/images/2014/Aug/checkout_wireframe_still.jpg)
+<br />
 
-[Download the full wireframe .pdf here](../content/images/2014/Aug/magento_checkout_UX.pdf)
+![Checkout Flow Wireframe](/img/post_content/checkout_flow_redesign/checkout_wireframe_still.jpg)
+
+[Download the full wireframe .pdf here](/img/post_content/checkout_flow_redesign/magento_checkout_UX.pdf)

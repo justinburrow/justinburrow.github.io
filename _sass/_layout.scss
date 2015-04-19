@@ -20,6 +20,16 @@ header, .navbar-header, .navbar {
     border: 0;
     .navbar-nav>li>a, .navbar-brand {
         color: white;
+        &:hover {
+            color: lighten($sidebar-accent, 30%);
+        }
+    }
+    .nav li a.active {
+        background: $sidebar-accent;
+        font-weight: 400;
+        &:hover {
+            color: white;
+        }
     }
 }
 
@@ -37,4 +47,17 @@ header h1 {
 .content.container-fluid {
     padding-left: 30px;
     padding-right: 0;
+}
+
+.post-snippet {
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+    h3 {
+        margin-bottom: 5px;
+        font-size: 1.4rem;
+    }
+    .categories {
+        font-size: .8rem;
+    }
 }
