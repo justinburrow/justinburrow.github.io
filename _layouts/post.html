@@ -5,25 +5,24 @@ layout: default
 	<div class="post">
 
 	  <h2 class="post-title">{{ page.title }}</h2>
-	  
+
 	  <p class="post-meta">posted {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} in {{ page.tags | array_to_sentence_string }}</p>
 
 	  <article class="post-content">
 	    {{ content }}
 	  </article>
-
-	  {% if page.previous_in_category %} 
-	          <div class="post-pagination">
+			<div class="post-pagination">
+	  		{% if page.next_in_category %} 
 		          <span class="previous-link">
-	  	            <a rel="prev" href="{{ page.previous_in_category.url }}"><i class="fa fa-arrow-circle-o-left"></i>{{ page.previous_in_category.title }}</a>
+	  	            <a rel="prev" href="{{ page.next_in_category.url }}"><i class="fa fa-arrow-circle-o-left"></i>{{ page.next_in_category.title }}</a>
 	  	          </span>
 	  	        {% endif %}
-	  	        {% if page.next_in_category %} 
+	  	        {% if page.previous_in_category %} 
 	  	          <span class="next-link">
-	  	            <a rel="next" href="{{ page.next_in_category.url }}">{{ page.next_in_category.title }}<i class="fa fa-arrow-circle-o-right"></i></a>
+	  	            <a rel="next" href="{{ page.previous_in_category.url }}">{{ page.previous_in_category.title }}<i class="fa fa-arrow-circle-o-right"></i></a>
 	  	          </span>
-	          </div>
 	        {% endif %}
+	        </div>
 
 	</div>
 </div>
