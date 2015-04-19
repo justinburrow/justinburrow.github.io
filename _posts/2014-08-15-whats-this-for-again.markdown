@@ -2,7 +2,7 @@
 layout: post
 title:  "The Copycat Fallacy"
 date:   2014-09-02 12:00:00
-categories: rambling
+categories: writing
 tags: Design
 ---
 It makes sense - if it worked before, why reinvent the wheel? In a lot of ways, this is true, and works well. The eCommerce space is a great arena to put this idea into practice. I frequently begin wireframing site functionality by examining what Amazon, Target, or Walmart does, and then contrast that against more modern online retailers like Shoplet or Poppin. These behemoth companies have teams of people that I naturally assume have vetted out these concepts to a degree that's just not available to me at a smaller organization.

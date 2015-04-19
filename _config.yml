@@ -24,3 +24,6 @@ exclude:
 - "package.json"
 - "bower_components"
 - "bower.json"
+
+permalink: /:categories/:title/
+post_dirs: false

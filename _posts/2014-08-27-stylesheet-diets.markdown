@@ -2,7 +2,7 @@
 layout: post
 title:  "Stylesheet Diets"
 date:   2014-08-27 12:00:00
-categories: rambling
+categories: writing
 tags: Development
 ---
 We've been on a performance enhancement kick lately, really trying to reclaim some of the page speed performance loss due to the inherent Magento bloat. A lot of this is happening server-side, by incorporating Akamai caching and Varnish to make sure that pages are immediately available to users in a broad geographic region.

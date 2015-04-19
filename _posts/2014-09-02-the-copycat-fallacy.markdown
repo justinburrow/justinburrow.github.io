@@ -2,7 +2,7 @@
 layout: post
 title:  "What's This For Again?"
 date:   2014-08-15 12:00:00
-categories: rambling
+categories: writing
 tags: Design
 ---
 Soapbox alert.
