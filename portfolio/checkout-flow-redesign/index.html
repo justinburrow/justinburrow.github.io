@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Justin Burrow - Front End Dev / Musician - Checkout Flow Redesign</title>
+  <meta name="description" content="One of the initiatives I pioneered was a complete rethinking of our checkout flow. It was something no one had really peeled back the curtain on in quite a w...">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="canonical" href="http://justinburrow.github.io/portfolio/checkout-flow-redesign/">
+  <link rel="alternate" type="application/rss+xml" title="Justin Burrow - Front End Dev / Musician" href="http://justinburrow.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+        <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="/"><span class="bold">Justin Burrow</span> - Front End Dev / Musician</a></h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                <li><a class="blog-nav-item" href="/about/">About</a></li>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                <li><a class="blog-nav-item" href="/categories/portfolio/index.html">portfolio</a></li>
+                
+              
+                
+                <li><a class="blog-nav-item" href="/categories/writing/index.html">writing</a></li>
+                
+              
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </header>
+
+      <div class="container">
+
+
+    <div class="row">
+
+            <div class="col-sm-3 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <div class="photo"></div>
+            <h3 class="description">Los Angeles based Front End Web Developer, UX Enthusiast, Guitarist, Audio Engineer.  This is where I'll keep portfolio pieces, writings about web development, and clips of music I've worked on.</h3>
+            <ul class="social">
+              <li><a href="https://twitter.com/_justinburrow"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/justinburrow84"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+              <li><a href="https://soundcloud.com/justin-plays-guitar"><i class="fa fa-soundcloud"></i>SoundCloud</a></li>
+              <li><a href="mailto:justinburrow@gmail.com"><i class="fa fa-envelope"></i></i>Let's Chat</a></li>
+            </ul>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+    
+        <div class="col-sm-9">
+        <div class="content container-fluid">
+	<div class="post">
+
+	  <h2 class="post-title">Checkout Flow Redesign</h2>
+	  
+	  <p class="post-meta">posted Jul 22, 2014 in Development</p>
+
+	  <article class="post-content">
+	    <p>One of the initiatives I pioneered was a complete rethinking of our checkout flow. It was something no one had really peeled back the curtain on in quite a while, and I saw some very major improvements that could be made which would greatly enhance UX in the purchase path.</p>
+
+<!--break-->
+
+<p>Here are some of the pain points I attempted to address:</p>
+
+<ul>
+  <li>
+    <p>After adding an item to cart, you were immediately whisked away to the cart page. In order to get back to the page you were on to keep shopping, you had to press the back button, and to get to checkout, you had to first start on the cart page and then proceed to there. I felt that the user should be able to remain on the page and keep adding items, or move directly to checkout without having to hit the cart first.</p>
+  </li>
+  <li>
+    <p>The login function at the top of the cart was visibly insignificant to me, even though I knew where to look. I wanted to really call out the checkout as guest or login option, and include social sign-in functionality.</p>
+  </li>
+  <li>
+    <p>The long one-page checkout flow was just tedious. So many fields to stare at before completing your purchase. I felt that separating these out into a horizontal layout that slid the immediate fields into focus as you progressed, with clear indication of how much was left in the process would likely decrease bounce rate.</p>
+  </li>
+  <li>
+    <p>The function that calculated shipping options was a little wonky. It relied on AJAX to pull in the relevant shipping options based on address, but required a button press since the AJAX didn’t reliably fire all the time. Since shipping rates are calculated based on the first three digits of the zip code, we worked out a function that calculated and recalculated shipping options when either three digits were entered, or the user deleted back to two digits and added a third digit back in. No button press necessary.</p>
+  </li>
+  <li>
+    <p>Finally, I wanted to hide the promotional code field, as there’s some psychology to users seeing a promotional code input field and feeling incentivized to go find a coupon code to put in there. By hiding it, the intention was to discourage people from feeling motivated to find a coupon code.</p>
+  </li>
+</ul>
+
+<p>This is running in a dev environment which is why the page feels laggy, but I feel this is a good illustration of the improvements we made.</p>
+
+<p>My wireframe set is available below - please open it in Acrobat and view it as a single page. It’s a linked pdf so various parts of the page will progress the flow as intended.</p>
+
+<p><img src="../content/images/2014/Aug/checkout_wireframe_still.jpg" alt="" /></p>
+
+<p><a href="../content/images/2014/Aug/magento_checkout_UX.pdf">Download the full wireframe .pdf here</a></p>
+
+	  </article>
+
+	  
+	  	        
+
+	</div>
+</div>
+
+        </div>
+    </div>
+  </div><!-- /.container -->
+
+  <div class="footer container-fluid">
+	<footer class="site-footer">
+
+	    <h5 class="footer-heading"><a href="/">Justin Burrow - Front End Dev / Musician</a></h5>
+
+	    <ul>
+	    	<li><a href="https://twitter.com/_justinburrow">Twitter</a></li>
+	    	<li><a href="https://www.linkedin.com/in/justinburrow84">LinkedIn</a></li>
+	    	<li><a href="https://soundcloud.com/justin-plays-guitar">SoundCloud</a></li>
+	    	<li><a href="mailto:justinburrow@gmail.com">Let's Chat</a></li>
+	    </ul>
+	    
+	</footer>
+</div>
+
+
+  <script src="/vendor/js/jquery.min.js"></script>
+  <script src="/vendor/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

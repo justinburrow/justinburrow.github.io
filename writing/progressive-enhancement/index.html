@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Justin Burrow - Front End Dev / Musician - Progressive Enhancement</title>
+  <meta name="description" content="Working on corporate sites means supporting a lot of antiquated browsers. In an ideal world, it’d be great to put up a “Stop using this crap browser!” modal ...">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="canonical" href="http://justinburrow.github.io/writing/progressive-enhancement/">
+  <link rel="alternate" type="application/rss+xml" title="Justin Burrow - Front End Dev / Musician" href="http://justinburrow.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+        <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="/"><span class="bold">Justin Burrow</span> - Front End Dev / Musician</a></h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              
+                
+                <li><a class="blog-nav-item" href="/about/">About</a></li>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                <li><a class="blog-nav-item" href="/categories/portfolio/index.html">portfolio</a></li>
+                
+              
+                
+                <li><a class="blog-nav-item" href="/categories/writing/index.html">writing</a></li>
+                
+              
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </header>
+
+      <div class="container">
+
+
+    <div class="row">
+
+            <div class="col-sm-3 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <div class="photo"></div>
+            <h3 class="description">Los Angeles based Front End Web Developer, UX Enthusiast, Guitarist, Audio Engineer.  This is where I'll keep portfolio pieces, writings about web development, and clips of music I've worked on.</h3>
+            <ul class="social">
+              <li><a href="https://twitter.com/_justinburrow"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/justinburrow84"><i class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+              <li><a href="https://soundcloud.com/justin-plays-guitar"><i class="fa fa-soundcloud"></i>SoundCloud</a></li>
+              <li><a href="mailto:justinburrow@gmail.com"><i class="fa fa-envelope"></i></i>Let's Chat</a></li>
+            </ul>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+    
+        <div class="col-sm-9">
+        <div class="content container-fluid">
+	<div class="post">
+
+	  <h2 class="post-title">Progressive Enhancement</h2>
+	  
+	  <p class="post-meta">posted Jul 22, 2014 in Development</p>
+
+	  <article class="post-content">
+	    <p>Working on corporate sites means supporting a lot of antiquated browsers. In an ideal world, it’d be great to put up a <strong>“Stop using this crap browser!”</strong> modal dialog with a link to Chrome for any IE version less than 11, but when you’re dealing with potential business users sitting behind a network administered by IT guys who don’t want to deal with having to figure out how their Java based CRMs are going to play nice with browsers that have evolved since that software was developed, you just can’t develop in a way that doesn’t involve a decent user experience for these archaic environments.</p>
+
+<!--break-->
+
+<p>To this end, it’s easy to read all the hip design blogs that spotlight great new HTML features (like the new <a href="http://www.w3schools.com/tags/tag_dialog.asp">‘dialog’</a> element I was just reading about that is only supported by WebKit browsers) and breathe your exasperated sigh, knowing that you’ll just have to settle for some baked-in jQuery solution (like the <a href="https://github.com/HubSpot/vex">Vex</a> library, which we’ve been using for about a year).</p>
+
+<p>I can’t begin to describe how many times I’ve written inline Javascript on an input field for placeholder text, even though the HTML5 spec includes a ‘placeholder’ attribute. Lower than IE10, and the user just doesn’t see anything. We <strong>just</strong> stopped supporting IE7, so we’re still quite a bit away from ignoring those users on 8 and 9.</p>
+
+<p>At An Event Apart Boston this year, <a href="http://adactio.com/">Jeremy Keith</a> discussed progressive enhancement in great detail. It’s a concept I’ve been familiar with - making sure that any new tech utilized includes graceful degradation for older browsers - but his ethos was that progressive enhancement should be the strategy, not a stop-gap when you really, <em>really</em> want to utilize a new feature.</p>
+
+<p>There are a few great features that gracefully degrade to a usable extent, that can be implemented right now.</p>
+
+<ul>
+  <li>
+    <p><strong>Input types</strong> - HTML5 introduces new input type attributes, like number, date, and tel, which have great UX benefits on mobile devices. Desktop browsers simply behave the same, which means UX improvement for some users, with no net loss for others.</p>
+  </li>
+  <li>
+    <p><strong><a href="http://modernizr.com/">Modernizr</a></strong> gives you the ability to utilize a number of new HTML5/CSS3 feature sets, and also a custom build option to slim down the JS needed.</p>
+  </li>
+</ul>
+
+<p>I’m done with the days of letting old browser support dictate the feature sets implemented. Designing this way essentially ensures that the minute the product is shipped, it’s already obsolete. Moving forward, we should all hold ourselves accountable to designing for the future, while making sure that those who haven’t quite caught up yet still get a usable experience across the board.</p>
+
+	  </article>
+
+	   
+	          <div class="post-pagination">
+		          <span class="previous-link">
+	  	            <a rel="prev" href="/writing/the-copycat-fallacy/"><i class="fa fa-arrow-circle-o-left"></i>What's This For Again?</a>
+	  	          </span>
+	  	        
+	  	        
+
+	</div>
+</div>
+
+        </div>
+    </div>
+  </div><!-- /.container -->
+
+  <div class="footer container-fluid">
+	<footer class="site-footer">
+
+	    <h5 class="footer-heading"><a href="/">Justin Burrow - Front End Dev / Musician</a></h5>
+
+	    <ul>
+	    	<li><a href="https://twitter.com/_justinburrow">Twitter</a></li>
+	    	<li><a href="https://www.linkedin.com/in/justinburrow84">LinkedIn</a></li>
+	    	<li><a href="https://soundcloud.com/justin-plays-guitar">SoundCloud</a></li>
+	    	<li><a href="mailto:justinburrow@gmail.com">Let's Chat</a></li>
+	    </ul>
+	    
+	</footer>
+</div>
+
+
+  <script src="/vendor/js/jquery.min.js"></script>
+  <script src="/vendor/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
