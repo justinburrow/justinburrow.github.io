@@ -1,0 +1,36 @@
+.footer.container-fluid {
+	margin-top: 100px;
+	background: black;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	text-transform: uppercase;
+	a {
+				color: white;
+				&:hover {
+					color: white;
+				}
+			}
+	h5 {
+		display: inline;
+		font-weight: 300;
+	}
+	ul {
+		list-style-type: none;
+		display: inline;
+		li {
+			display: inline;
+			margin-right: 10px;
+			border-right: 1px solid #777;
+			padding-right: 10px;
+			&:last-child {
+				border-right: none;
+				padding-right: 0;
+				margin-right: 0;
+			}
+		}
+	}
+}

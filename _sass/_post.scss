@@ -1,0 +1,57 @@
+.post {
+	font-size: 1rem;
+	h2 {
+	margin-top: 0;
+	}
+	article {
+		clear: both;
+	}
+}
+
+	
+h2 {
+	font-size: 2rem;
+	border-bottom: 1px solid $sidebar-accent;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.post-meta {
+	margin-bottom: 30px;
+	padding: 5px;
+	font-size: .8rem;
+	font-weight: 400;
+	background: #ddd;
+	display: inline-block;
+}
+
+.post-pagination {
+	margin-top: 60px;
+	font-size: 1.2rem;
+	a {
+		display: inline-block;
+		background: $sidebar-accent; 
+		padding: 5px 10px;
+		color: white;
+		&:hover {
+			background: darken($sidebar-accent, 10%);
+			text-decoration: none;
+		}
+	}
+	i {
+		vertical-align: middle;
+		margin-top: -3px;
+	}
+	.previous-link {
+		float: left;
+		a i {
+		margin-right: 8px;
+		}
+	} 
+	.next-link {
+		float: right;
+		a i {
+		margin-left: 8px;
+		}
+	}
+}
