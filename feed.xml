@@ -6,9 +6,38 @@
 </description>
     <link>http://justinburrow.github.io/</link>
     <atom:link href="http://justinburrow.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 12:21:43 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 12:21:43 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2015 14:55:29 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2015 14:55:29 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Please (Say You Never Will)</title>
+        <description>&lt;div class=&quot;video-container first&quot;&gt;
+	&lt;iframe scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199540145&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sometimes I plunk through different sound libraries that I have, looking for something inspiring - some new sound I haven’t really worked with before.  There’s times, though, when even this approach is exhausted, and I’m stuck looking for new ways to make interesting sounds.  Right around the time that I wrote the track for this song, I started forcing myself to create audio chains in traditionally “wrong” ways - compressors after reverbs, putting mastering tape effects as an insert, etc.  I started to arbitrarily pull up software instrument tracks and begin stacking various effects as inserts without previewing what they were doing first, and then blindly checking to see what kind of mess I created.&lt;/p&gt;
+
+&lt;p&gt;I don’t even remember what the base patch was that I started with, but it was something like a vintage synth doing an impression of a Rhodes electric piano.  I do remember putting some effects on it to give it a grimier tonality, and this riff just sort of happened while I was playing these really wide 10th intervals.&lt;/p&gt;
+
+&lt;p&gt;Serendipitously, I had just gotten ahold of a sample pack of stomps and claps that I really wanted to use on something, so I sketched out a quick stomp/clap loop underneath this idea.&lt;/p&gt;
+
+&lt;p&gt;Kotomi immediately had melodies for this, and penned some lyrics to fit.&lt;/p&gt;
+
+&lt;p&gt;The song was 90% finished in one day of tracking vocals and guitars on top of everything, with the only additional tracking being some drum overdubs.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Apr 2015 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/music/please-say-you-never-will/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/music/please-say-you-never-will/</guid>
+        
+        <category>Music</category>
+        
+        <category>Production</category>
+        
+        
+        <category>music</category>
+        
+      </item>
     
       <item>
         <title>Obsoletion</title>
@@ -229,19 +258,13 @@
 
 &lt;p&gt;This is running in a dev environment which is why the page feels laggy, but I feel this is a good illustration of the improvements we made.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;http://www.youtube.com/embed/1Hj0cC9FaJA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;http://www.youtube.com/embed/1Hj0cC9FaJA?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;My wireframe set is available below - please open it in Acrobat and view it as a single page. It’s a linked pdf so various parts of the page will progress the flow as intended.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-content/checkout-flow-redesign/checkout_wireframe_still.jpg&quot; alt=&quot;Checkout Flow Wireframe&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/post_content/checkout_flow_redesign/checkout_wireframe_still.jpg&quot; alt=&quot;Checkout Flow Wireframe&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/post_content/checkout_flow_redesign/magento_checkout_UX.pdf&quot;&gt;Download the full wireframe .pdf here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/img/post-content/checkout-flow-redesign/magento_checkout_UX.pdf&quot;&gt;Download the full wireframe .pdf here&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jul 2014 05:00:00 -0700</pubDate>
         <link>http://justinburrow.github.io/portfolio/checkout-flow-redesign/</link>
@@ -252,6 +275,87 @@
         <category>UX</category>
         
         <category>Magento</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Just Luigi&#39;s Pizzeria Rebranding</title>
+        <description>&lt;p&gt;Look, this is a business my mom owns. When I saw her business cards that she had designed herself, I just couldn’t help but step in, even though I rarely have good experiences working for friends or family. It just gets weird trying to figure out either just compensation for time or doing work at a deep discount while still being as available as they expect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-content/just-luigis-rebranding/old_card-1.jpg&quot; alt=&quot;Just Luigis Old Business Card&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Somehow, they managed to pair Papyrus and Comic Sans to unintentionally create a meme of bad design, and then topped it off with a menacing hillbilly in a wifebeater that you may or may not need to hide yo’ kids, hide yo’ wife from, paired with a red and black color scheme to warn any potential attackers that it is, in fact, poisonous and deadly.&lt;/p&gt;
+
+&lt;p&gt;Exactly what you want to communicate as a family-friendly, N.Y. style pizza joint.&lt;/p&gt;
+
+&lt;p&gt;Their makeshift website wasn’t much better.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-content/just-luigis-rebranding/old_site.jpg&quot; alt=&quot;Just Luigis Old Site&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first thing I pitched to them was a consistent branding. Since my mom is a new small business owner with little interest or awareness of marketing concepts, I explained that this meant a logo mark and typography that remained consistent across business cards, menus, building valances, window decals, websites, flyers, postcards, shirts… just about anything imaginable.&lt;/p&gt;
+
+&lt;p&gt;I started with paring down any of this stuff to the base essence of who they were: a classic, authentic pizzeria in an old-timey neighborhood.&lt;/p&gt;
+
+&lt;p&gt;The design aesthetic I wanted to convey was centered around these concepts: Italian, New York, Pizza, Retro, Clean. Here’s the pitch:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-content/just-luigis-rebranding/just_luigis_logo-2x.png&quot; alt=&quot;Just Luigis New Logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I took a look at their mobile traffic from Yelp Business and realized that they had a good number of visitors monthly coming to their site from mobile devices after viewing the Yelp reviews page for their business. In thinking about a user on the go, perhaps looking for a potential lunch spot, I assessed that the main components that needed to be easily accessible were a tap-to-call phone number, address linked to a map, menu, and hours open.&lt;/p&gt;
+
+&lt;p&gt;jQuery Mobile fit the bill for a quick and dirty “m-dot” site rollout, while the desktop site seemed fine to leave as a rebranded landing page with a link to download the most current printable menu .pdf.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://m.justluigis.com&quot;&gt;http://m.justluigis.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jun 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/portfolio/just-luigis-rebranding/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/just-luigis-rebranding/</guid>
+        
+        <category>Design</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Search Results Wireframe</title>
+        <description>&lt;p&gt;One of the big projects last year was to add an entirely different product line to our catalog, and revamp the site to accommodate these new products. The rollout was to be done in phases - phase one was a shoehorning/bolt-on to our existing site, with phase two slated to be an entire redesign with mobile/responsive considerations.&lt;/p&gt;
+
+&lt;p&gt;Search results got a little messy because these new products had an entirely different schema and filtering requirement than our existing product line. The product results returned to a customer went from one-to-one to shop-by-browsing, so it was a little bit of an exercise to retain a familiar experience while also alloting for new functionality.&lt;/p&gt;
+
+&lt;p&gt;This was the preliminary wireframe for the bolted-on search results. We added support for left-hand filtering, as well as a consideration to entirely remove the new product line results from the list for customers who were only interested in the products they had been purchasing from us previously. A big business objective was to ensure that we weren’t cannibalizing existing sales for the sake of adding in new SKUs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-content/search-results-wireframe/search_wireframe.jpg&quot; alt=&quot;&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 May 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/portfolio/search-results-wireframe/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/search-results-wireframe/</guid>
+        
+        <category>Design</category>
+        
+        <category>Magento</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>No-Shave November</title>
+        <description>&lt;p&gt;Last year, we wanted to get on board with the &lt;strong&gt;Movember&lt;/strong&gt; movement and deliver a kitschy email campaign that would let us use our brand to push awareness. “Movember” is trademarked against commercial use, so we opted for &lt;strong&gt;“No-Shave November”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had the idea to create an animated .gif of beards growing in a looping format for the hero image. For four weeks, I shot pictures of employees twice a week, then edited and compiled them down into the hero image below. In addition, I played a large role in the art direction of the visual tone for the email campaign by setting the typography and texture before the rest of the email was designed around this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-content/no-shave-november/stache_gif.gif&quot; alt=&quot;No Shave November&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Mar 2014 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/portfolio/no-shave-november/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/no-shave-november/</guid>
+        
+        <category>Design</category>
         
         
         <category>portfolio</category>
