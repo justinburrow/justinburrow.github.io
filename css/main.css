@@ -68,7 +68,8 @@ header h1 {
   @media (min-width: 320px) and (max-width: 767px) {
     .blog-sidebar {
       padding-top: 10px;
-      margin-bottom: 60px; } }
+      margin-bottom: 15px;
+      padding-bottom: 15px; } }
   .blog-sidebar .photo {
     background: url(../img/computer_head.jpg) no-repeat;
     background-size: cover;
@@ -222,6 +223,9 @@ h2 {
 .footer.container-fluid {
   margin-top: 100px;
   background: black; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .footer.container-fluid {
+      display: none; } }
 
 footer {
   color: white;
@@ -250,15 +254,6 @@ footer {
       margin-right: 10px;
       border-right: 1px solid #777;
       padding-right: 10px; }
-      @media (min-width: 320px) and (max-width: 767px) {
-        footer ul li {
-          display: block;
-          margin: 0;
-          border: none;
-          padding: 0; }
-          footer ul li a {
-            display: block;
-            padding: 10px 0; } }
       footer ul li:last-child {
         border-right: none;
         padding-right: 0;
