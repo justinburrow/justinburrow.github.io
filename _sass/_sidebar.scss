@@ -2,7 +2,8 @@
 	background: white;
 	@include mobile {
 		padding-top: 10px;
-		margin-bottom: 60px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
 	}
 	.photo {
 		background: url(../img/computer_head.jpg) no-repeat;

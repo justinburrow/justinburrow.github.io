@@ -1,6 +1,9 @@
 .footer.container-fluid {
 	margin-top: 100px;
 	background: black;
+	@include mobile {
+		display: none;
+	}
 }
 
 footer {
@@ -33,16 +36,6 @@ footer {
 			margin-right: 10px;
 			border-right: 1px solid #777;
 			padding-right: 10px;
-			@include mobile {
-				display: block;
-				margin: 0;
-				border: none;
-				padding: 0;
-				a {
-					display: block;
-					padding: 10px 0;
-				}
-			}
 			&:last-child {
 				border-right: none;
 				padding-right: 0;
