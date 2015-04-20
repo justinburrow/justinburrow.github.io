@@ -27,8 +27,12 @@ header, .navbar-header, .navbar {
 
 header h1 {
   margin: 0;
-  font-size: 1rem;
   font-weight: 300; }
+  header h1 a.navbar-brand {
+    font-size: 1rem; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      header h1 a.navbar-brand {
+        font-size: .9rem; } }
 
 .bold {
   font-weight: 400; }
@@ -36,6 +40,9 @@ header h1 {
 .content.container-fluid {
   padding-left: 30px;
   padding-right: 0; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .content.container-fluid {
+      padding-left: 0px; } }
 
 .post-snippet {
   margin-bottom: 30px;
@@ -49,6 +56,10 @@ header h1 {
 
 .blog-sidebar {
   background: white; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .blog-sidebar {
+      padding-top: 10px;
+      margin-bottom: 30px; } }
   .blog-sidebar .photo {
     background: url(../img/computer_head.jpg) no-repeat;
     background-size: cover;
@@ -60,6 +71,10 @@ header h1 {
     padding-top: 90%;
     margin: 15px auto 0 auto;
     position: relative; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .blog-sidebar .photo {
+        width: 80%;
+        padding-top: 80%; } }
   .blog-sidebar h3.description {
     font-size: 1rem;
     font-weight: 300;
