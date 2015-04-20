@@ -28,11 +28,15 @@ header, .navbar-header, .navbar {
 header h1 {
   margin: 0;
   font-weight: 300; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    header h1 {
+      overflow: hidden;
+      padding-bottom: 15px; } }
   header h1 a.navbar-brand {
     font-size: 1rem; }
     @media (min-width: 320px) and (max-width: 767px) {
-      header h1 a.navbar-brand {
-        font-size: .9rem; } }
+      header h1 a.navbar-brand span.bold {
+        display: block; } }
 
 .bold {
   font-weight: 400; }
@@ -59,7 +63,7 @@ header h1 {
   @media (min-width: 320px) and (max-width: 767px) {
     .blog-sidebar {
       padding-top: 10px;
-      margin-bottom: 30px; } }
+      margin-bottom: 60px; } }
   .blog-sidebar .photo {
     background: url(../img/computer_head.jpg) no-repeat;
     background-size: cover;
@@ -113,6 +117,10 @@ p.title {
     border-bottom: none; }
   .portfolio .port-piece a {
     color: #111; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .portfolio .col-sm-4 {
+      text-align: center;
+      margin-bottom: 60px; } }
 
 .blog-preview p {
   font-size: 1rem; }
@@ -222,14 +230,30 @@ footer {
   footer h5 {
     display: inline;
     font-weight: 300; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      footer h5 {
+        display: none; } }
   footer ul {
     list-style-type: none;
     display: inline; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      footer ul {
+        display: block;
+        padding: 0; } }
     footer ul li {
       display: inline;
       margin-right: 10px;
       border-right: 1px solid #777;
       padding-right: 10px; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        footer ul li {
+          display: block;
+          margin: 0;
+          border: none;
+          padding: 0; }
+          footer ul li a {
+            display: block;
+            padding: 10px 0; } }
       footer ul li:last-child {
         border-right: none;
         padding-right: 0;
