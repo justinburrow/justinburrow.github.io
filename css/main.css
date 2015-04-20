@@ -155,6 +155,9 @@ p.title {
       margin-right: 3px;
       vertical-align: middle; }
 
+ul.posts {
+  padding-left: 0; }
+
 .post {
   font-size: 1rem; }
   .post h2 {
