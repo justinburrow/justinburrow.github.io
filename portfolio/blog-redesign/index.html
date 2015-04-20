@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Justin Burrow - Front End Dev / Musician - No-Shave November</title>
-  <meta name="description" content="Last year, we wanted to get on board with the Movember movement and deliver a kitschy email campaign that would let us use our brand to push awareness. “Move...">
+  <title>Justin Burrow - Front End Dev / Musician - Blog/Portfolio Redesign</title>
+  <meta name="description" content="Last year, I had set up a quick-and-dirty blog/portfolio using a new static site generator call Ghost.  It was functional, but had some deployment issues tha...">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
-  <link rel="canonical" href="http://justinburrow.github.io/portfolio/no-shave-november/">
+  <link rel="canonical" href="http://justinburrow.github.io/portfolio/blog-redesign/">
   <link rel="alternate" type="application/rss+xml" title="Justin Burrow - Front End Dev / Musician" href="http://justinburrow.github.io/feed.xml" />
   <script src="/vendor/js/jquery.min.js"></script>
 </head>
@@ -86,25 +86,56 @@
         <div class="content container-fluid">
 	<div class="post">
 
-	  <h2 class="post-title">No-Shave November</h2>
+	  <h2 class="post-title">Blog/Portfolio Redesign</h2>
 
-	  <p class="post-meta">posted Mar 14, 2014 in Design</p>
+	  <p class="post-meta">posted Apr 19, 2015 in Design, Development, and UX</p>
 
 	  <article class="post-content">
-	    <p>Last year, we wanted to get on board with the <strong>Movember</strong> movement and deliver a kitschy email campaign that would let us use our brand to push awareness. “Movember” is trademarked against commercial use, so we opted for <strong>“No-Shave November”</strong>.</p>
+	    <p>Last year, I had set up a quick-and-dirty blog/portfolio using a new static site generator call Ghost.  It was functional, but had some deployment issues that I wasn’t completely comfortable with, but I didn’t invest the time to sort these out.</p>
 
-<p>I had the idea to create an animated .gif of beards growing in a looping format for the hero image. For four weeks, I shot pictures of employees twice a week, then edited and compiled them down into the hero image below. In addition, I played a large role in the art direction of the visual tone for the email campaign by setting the typography and texture before the rest of the email was designed around this.</p>
+<p>Static site generators, like Ghost, had really intrigued me.  I’ve had plenty of experience building a variety of types of Wordpress-based sites, and in general, unless you’re handing the site off to a non-technical business user, they feel exponentially bloated.  I liked the flexibility of editing content via a CMS and having templated layout files, but frankly, setting up a MAMP stack for each website built on Wordpress was becoming tedious.  I’ve been getting used to having Grunt set up a local server and live-reloading pages - these days, setting up a new Wordpress install feels like a step in the wrong direction.</p>
 
-<p><img src="/img/post-content/no-shave-november/stache_gif.gif" alt="No Shave November" class="center" /></p>
+<p><em>Note: I’m not saying Wordpress is dead, or is useless.  It has its place.</em></p>
+
+<p>These are the criteria I wanted to hit with my blog relaunch:</p>
+
+<ul>
+  <li>Hosted on GitHub Pages (I really don’t see the point in paying for hosting unnecessarily)</li>
+  <li>No DB required if possible</li>
+  <li>Grunt task-running for easy deployment</li>
+  <li>Git version control</li>
+  <li>Responsive</li>
+  <li>Performant</li>
+</ul>
+
+<p>I went back to the basics of static site generators: Jekyll.  When I started exploring static site generators, Jekyll seemed a little daunting, but after working with a bare-bones install, I started to understand how it worked and how to hook up the other functionality I needed from it.</p>
+
+<p>The responsive criteria was met by dropping in Bootstrap CSS.  To do this, I used Bower to manage my package dependencies.  Bootstrap came with jQuery, which is great.  However, I didn’t want to deploy the entire “bower_compenents” folder to GitHub Pages.</p>
+
+<p>The solution to this end of things came about in the solving of a separate, unrelated issue.  There are a lot of great Ruby generators for Jekyll that allow you to do things like generate categories and posts associated to them on the fly at compile.  GitHub Pages will compile Jekyll for you, but disables the usage of these plugins for security and safety reasons.</p>
+
+<p>By creating a subdirectory to contain the compiled HTML files for deployment, you can run the compilation locally and simply deploy HTML to GitHub Pages to get around this.</p>
+
+<p>For the “bower_components” directory issue, I have “grunt-contrib-copy” running at compiliation which takes the minified files for Bootstrap .css/.js and jQuery .js, and copies them to my distribution site folder, which my templates then reference.</p>
+
+<p><em>Can’t really take credit for this - some other genius came up with this solution.  I just appropriated it.</em></p>
+
+<p>So now I have two separate directories to version control.  Easy - set up the dist folder to the master branch, and create a source branch for the source files.</p>
+
+<p>It creates a little complexity as the process requires two separate commit and push steps since things are contained in two different branches, but it’s a small sacrifice for the larger flexibility of this approach.</p>
+
+<p>By nature, Jekyll doesn’t require a DB and is highly performant as the compiled files are straight-up HTML/CSS.</p>
+
+<p>So far, I’m pretty happy with this new rollout.  I’ll continue to tweak and add to it as it evolves, but it’s a great starting point featuring some pretty modern approaches.</p>
 
 	  </article>
 			<div class="post-pagination">
-	  		
-	  	         
-	  	          <span class="next-link">
-	  	            <a rel="next" href="/portfolio/search-results-wireframe/">Search Results Wireframe<i class="fa fa-arrow-circle-o-right"></i></a>
+	  		 
+		          <span class="previous-link">
+	  	            <a rel="prev" href="/portfolio/checkout-flow-redesign/"><i class="fa fa-arrow-circle-o-left"></i>Checkout Flow Redesign</a>
 	  	          </span>
-	        
+	  	        
+	  	        
 	        </div>
 
 	</div>

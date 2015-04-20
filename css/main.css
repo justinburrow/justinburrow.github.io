@@ -34,9 +34,14 @@ header h1 {
       padding-bottom: 15px; } }
   header h1 a.navbar-brand {
     font-size: 1rem; }
+    header h1 a.navbar-brand span.title-desc::before {
+      content: " - "; }
     @media (min-width: 320px) and (max-width: 767px) {
       header h1 a.navbar-brand span.bold {
-        display: block; } }
+        display: block;
+        font-size: 1.6rem; }
+      header h1 a.navbar-brand span.title-desc::before {
+        content: ""; } }
 
 .bold {
   font-weight: 400; }

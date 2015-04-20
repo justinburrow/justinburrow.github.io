@@ -6,9 +6,63 @@
 </description>
     <link>http://justinburrow.github.io/</link>
     <atom:link href="http://justinburrow.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Apr 2015 09:45:48 -0700</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2015 09:45:48 -0700</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2015 11:10:55 -0700</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2015 11:10:55 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Blog/Portfolio Redesign</title>
+        <description>&lt;p&gt;Last year, I had set up a quick-and-dirty blog/portfolio using a new static site generator call Ghost.  It was functional, but had some deployment issues that I wasn’t completely comfortable with, but I didn’t invest the time to sort these out.&lt;/p&gt;
+
+&lt;p&gt;Static site generators, like Ghost, had really intrigued me.  I’ve had plenty of experience building a variety of types of Wordpress-based sites, and in general, unless you’re handing the site off to a non-technical business user, they feel exponentially bloated.  I liked the flexibility of editing content via a CMS and having templated layout files, but frankly, setting up a MAMP stack for each website built on Wordpress was becoming tedious.  I’ve been getting used to having Grunt set up a local server and live-reloading pages - these days, setting up a new Wordpress install feels like a step in the wrong direction.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: I’m not saying Wordpress is dead, or is useless.  It has its place.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These are the criteria I wanted to hit with my blog relaunch:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hosted on GitHub Pages (I really don’t see the point in paying for hosting unnecessarily)&lt;/li&gt;
+  &lt;li&gt;No DB required if possible&lt;/li&gt;
+  &lt;li&gt;Grunt task-running for easy deployment&lt;/li&gt;
+  &lt;li&gt;Git version control&lt;/li&gt;
+  &lt;li&gt;Responsive&lt;/li&gt;
+  &lt;li&gt;Performant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I went back to the basics of static site generators: Jekyll.  When I started exploring static site generators, Jekyll seemed a little daunting, but after working with a bare-bones install, I started to understand how it worked and how to hook up the other functionality I needed from it.&lt;/p&gt;
+
+&lt;p&gt;The responsive criteria was met by dropping in Bootstrap CSS.  To do this, I used Bower to manage my package dependencies.  Bootstrap came with jQuery, which is great.  However, I didn’t want to deploy the entire “bower_compenents” folder to GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;The solution to this end of things came about in the solving of a separate, unrelated issue.  There are a lot of great Ruby generators for Jekyll that allow you to do things like generate categories and posts associated to them on the fly at compile.  GitHub Pages will compile Jekyll for you, but disables the usage of these plugins for security and safety reasons.&lt;/p&gt;
+
+&lt;p&gt;By creating a subdirectory to contain the compiled HTML files for deployment, you can run the compilation locally and simply deploy HTML to GitHub Pages to get around this.&lt;/p&gt;
+
+&lt;p&gt;For the “bower_components” directory issue, I have “grunt-contrib-copy” running at compiliation which takes the minified files for Bootstrap .css/.js and jQuery .js, and copies them to my distribution site folder, which my templates then reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Can’t really take credit for this - some other genius came up with this solution.  I just appropriated it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So now I have two separate directories to version control.  Easy - set up the dist folder to the master branch, and create a source branch for the source files.&lt;/p&gt;
+
+&lt;p&gt;It creates a little complexity as the process requires two separate commit and push steps since things are contained in two different branches, but it’s a small sacrifice for the larger flexibility of this approach.&lt;/p&gt;
+
+&lt;p&gt;By nature, Jekyll doesn’t require a DB and is highly performant as the compiled files are straight-up HTML/CSS.&lt;/p&gt;
+
+&lt;p&gt;So far, I’m pretty happy with this new rollout.  I’ll continue to tweak and add to it as it evolves, but it’s a great starting point featuring some pretty modern approaches.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Apr 2015 05:00:00 -0700</pubDate>
+        <link>http://justinburrow.github.io/portfolio/blog-redesign/</link>
+        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/blog-redesign/</guid>
+        
+        <category>Design</category>
+        
+        <category>Development</category>
+        
+        <category>UX</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
     
       <item>
         <title>Please (Say You Never Will)</title>
@@ -337,25 +391,6 @@
         <category>Design</category>
         
         <category>Magento</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>No-Shave November</title>
-        <description>&lt;p&gt;Last year, we wanted to get on board with the &lt;strong&gt;Movember&lt;/strong&gt; movement and deliver a kitschy email campaign that would let us use our brand to push awareness. “Movember” is trademarked against commercial use, so we opted for &lt;strong&gt;“No-Shave November”&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I had the idea to create an animated .gif of beards growing in a looping format for the hero image. For four weeks, I shot pictures of employees twice a week, then edited and compiled them down into the hero image below. In addition, I played a large role in the art direction of the visual tone for the email campaign by setting the typography and texture before the rest of the email was designed around this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/post-content/no-shave-november/stache_gif.gif&quot; alt=&quot;No Shave November&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Mar 2014 05:00:00 -0700</pubDate>
-        <link>http://justinburrow.github.io/portfolio/no-shave-november/</link>
-        <guid isPermaLink="true">http://justinburrow.github.io/portfolio/no-shave-november/</guid>
-        
-        <category>Design</category>
         
         
         <category>portfolio</category>
