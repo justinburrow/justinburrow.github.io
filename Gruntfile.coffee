@@ -8,6 +8,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-copy"
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-exec"
+  grunt.loadNpmTasks "grunt-contrib-imagemin"
 
   grunt.initConfig
 
@@ -37,6 +38,16 @@ module.exports = (grunt) ->
       jekyll:
         cmd: "jekyll build --trace"
 
+    imagemin:
+      dynamic:
+        files: [{
+          expand: true
+          flatten: false
+          cwd: "img/"
+          src: ["**/*.{png,jpg,gif}"]
+          dest: "img/"
+        }]
+
     watch:
       options:
         livereload: true
@@ -65,6 +76,7 @@ module.exports = (grunt) ->
           livereload: true
 
   grunt.registerTask "build", [
+    "imagemin"
     "copy"
     "exec:jekyll"
   ]
