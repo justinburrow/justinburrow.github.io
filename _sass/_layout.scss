@@ -35,9 +35,13 @@ header, .navbar-header, .navbar {
 
 header h1 {
     margin: 0;
-    font-size: 1rem;
     font-weight: 300;
-
+    a.navbar-brand {
+        font-size: 1rem;
+        @include mobile {
+            font-size: .9rem;
+        }
+    }
 }
 
 .bold {
@@ -47,6 +51,9 @@ header h1 {
 .content.container-fluid {
     padding-left: 30px;
     padding-right: 0;
+    @include mobile {
+        padding-left: 0px;
+    }
 }
 
 .post-snippet {
