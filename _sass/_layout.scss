@@ -42,9 +42,20 @@ header h1 {
     }
     a.navbar-brand {
         font-size: 1rem;
+        span.title-desc {
+                &::before {
+                    content: " - ";
+                }
+            }
         @include mobile {
             span.bold {
                 display: block;
+                font-size: 1.6rem;
+            }
+            span.title-desc {
+                &::before {
+                    content: "";
+                }
             }
         }
     }
