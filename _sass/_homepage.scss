@@ -18,6 +18,12 @@ p.title {
 			color: $text-color;
 		}
 	}
+	@include mobile {
+		.col-sm-4 {
+			text-align: center;
+			margin-bottom: 60px;
+		}
+	}
 }
 
 .blog-preview {

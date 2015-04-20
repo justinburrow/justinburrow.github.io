@@ -36,10 +36,16 @@ header, .navbar-header, .navbar {
 header h1 {
     margin: 0;
     font-weight: 300;
+    @include mobile {
+        overflow: hidden;
+        padding-bottom: 15px;
+    }
     a.navbar-brand {
         font-size: 1rem;
         @include mobile {
-            font-size: .9rem;
+            span.bold {
+                display: block;
+            }
         }
     }
 }
