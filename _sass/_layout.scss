@@ -65,6 +65,10 @@ header h1 {
     font-weight: 400;
 }
 
+.container {
+     @include animation('fade 2s 1');
+}
+
 .content.container-fluid {
     padding-left: 30px;
     padding-right: 0;
