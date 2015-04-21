@@ -72,11 +72,11 @@ header h1 {
   font-weight: 400; }
 
 .container {
-  -webkit-animation: fade 2s 1;
-  -moz-animation: fade 2s 1;
-  -ms-animation: fade 2s 1;
-  -o-animation: fade 2s 1;
-  animation: fade 2s 1; }
+  -webkit-animation: fade 1s 1;
+  -moz-animation: fade 1s 1;
+  -ms-animation: fade 1s 1;
+  -o-animation: fade 1s 1;
+  animation: fade 1s 1; }
 
 .content.container-fluid {
   padding-left: 30px;
