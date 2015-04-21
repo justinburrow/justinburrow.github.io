@@ -71,7 +71,7 @@ header h1 {
 .bold {
   font-weight: 400; }
 
-.container {
+.content.container-fluid {
   -webkit-animation: fade 1s 1;
   -moz-animation: fade 1s 1;
   -ms-animation: fade 1s 1;
