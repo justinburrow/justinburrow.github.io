@@ -148,6 +148,9 @@ p.title {
 
 .portfolio {
   margin-bottom: 60px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .portfolio {
+      margin-bottom: 0; } }
   .portfolio .port-piece img {
     border: 1px solid #999; }
   .portfolio .port-piece h2 {
