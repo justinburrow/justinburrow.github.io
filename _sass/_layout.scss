@@ -65,7 +65,7 @@ header h1 {
     font-weight: 400;
 }
 
-.container {
+.content.container-fluid {
      @include animation('fade 1s 1');
 }
 
