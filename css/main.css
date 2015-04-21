@@ -1,3 +1,28 @@
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 html {
   font-size: 16px; }
 
@@ -45,6 +70,13 @@ header h1 {
 
 .bold {
   font-weight: 400; }
+
+.container {
+  -webkit-animation: fade 2s 1;
+  -moz-animation: fade 2s 1;
+  -ms-animation: fade 2s 1;
+  -o-animation: fade 2s 1;
+  animation: fade 2s 1; }
 
 .content.container-fluid {
   padding-left: 30px;
