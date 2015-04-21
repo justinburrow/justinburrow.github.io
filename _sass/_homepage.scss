@@ -6,6 +6,9 @@ p.title {
 
 .portfolio {
 	margin-bottom: 60px;
+	@include mobile {
+		margin-bottom: 0;
+	}
 	.port-piece {
 		img {
 			border: 1px solid #999;
