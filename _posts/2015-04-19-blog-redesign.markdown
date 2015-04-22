@@ -6,7 +6,7 @@ categories: portfolio
 tags: Design Development UX
 ---
 
-Last year, I had set up a quick-and-dirty blog/portfolio using a new static site generator call Ghost.  It was functional, but had some deployment issues that I wasn't completely comfortable with, but I didn't invest the time to sort these out.
+Last year, I had set up a quick-and-dirty blog/portfolio using a new static site generator call Ghost.  It was functional, but had some deployment issues that I wasn't completely comfortable with - I just didn't invest the time to sort these out.
 
 Static site generators, like Ghost, had really intrigued me.  I've had plenty of experience building a variety of types of Wordpress-based sites, and in general, unless you're handing the site off to a non-technical business user, they feel exponentially bloated.  I liked the flexibility of editing content via a CMS and having templated layout files, but frankly, setting up a MAMP stack for each website built on Wordpress was becoming tedious.  I've been getting used to having Grunt set up a local server and live-reloading pages - these days, setting up a new Wordpress install feels like a step in the wrong direction.
 
